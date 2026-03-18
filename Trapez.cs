@@ -6,8 +6,23 @@ using System.Threading.Tasks;
 
 namespace trapezokCLI
 {
+
+
     public class Trapez
     {
+
+        public bool szerkesztheto() 
+        {
+            if (Math.Abs(a-c)<b+d && Math.Abs(b-d) <a+c)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
         public Trapez(string egysor)
         {
             string[] sor = egysor.Split(" ");
