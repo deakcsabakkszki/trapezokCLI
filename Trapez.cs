@@ -23,6 +23,25 @@ namespace trapezokCLI
             }
         }
 
+        public bool derekszogu()
+        {
+            if (c == m || d == m)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public bool teglalap()
+        {
+            if(derekszogu() && c==d && a == b)
+            {
+                return true ;
+            }
+            return false;
+        }
         public Trapez(string egysor)
         {
             string[] sor = egysor.Split(" ");
@@ -38,5 +57,19 @@ namespace trapezokCLI
         public int c { get; private set; }
         public int d { get; private set; }
         public int m { get; private set; }
+
+        public Trapez(int a, int b, int c, int d, int m)
+        {
+            this.a = a;
+            this.b = b;
+            this.c = c;
+            this.d = d;
+            this.m = m;
+        }
+
+        public override string? ToString()
+        {
+            return $"a: {a}, b: {b}c: {c} d: {d} m: {m}";
+        }
     }
 }

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36811.4 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "trapezokCLI", "trapezokCLI.csproj", "{09CDFB0C-1802-41A8-8AA8-639FD08A5747}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "trapezokCLITests", "..\trapezokCLITests\trapezokCLITests.csproj", "{9CD6D31D-0E4A-4162-AA5D-82E8702F1F0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{09CDFB0C-1802-41A8-8AA8-639FD08A5747}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09CDFB0C-1802-41A8-8AA8-639FD08A5747}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09CDFB0C-1802-41A8-8AA8-639FD08A5747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CD6D31D-0E4A-4162-AA5D-82E8702F1F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CD6D31D-0E4A-4162-AA5D-82E8702F1F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CD6D31D-0E4A-4162-AA5D-82E8702F1F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CD6D31D-0E4A-4162-AA5D-82E8702F1F0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
